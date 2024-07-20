@@ -2,7 +2,9 @@
 
 ## Overview
 
-This script automates the process of running AWS remediation on Windows Server EC2 instances using the `AWSSupport-StartEC2RescueWorkflow` Systems Manager automation runbook. Addtionally, it provides a report file containing the execution IDs which can be used to verify the status of the jobs. See https://repost.aws/en/knowledge-center/ec2-instance-crowdstrike-agent for more details. NOTE: You will still need to verify the status of the instance, even if the job is successful. If the script times out, you will have to move to a manual remediation whose steps are detailed in the article.
+This script automates the process of running AWS remediation on Windows Server EC2 instances using the `AWSSupport-StartEC2RescueWorkflow` Systems Manager automation runbook. Addtionally, it provides a report file containing the execution IDs which can be used to verify the status of the jobs. See https://repost.aws/en/knowledge-center/ec2-instance-crowdstrike-agent for more details. 
+
+NOTE: You will still need to verify the status of the instance, even if the job is successful. If the script times out, you will have to move to a manual remediation whose steps are detailed in the article.
 
 ## Features
 
