@@ -98,7 +98,8 @@ NOTE: You will still need to verify the status of the instance, even if the job 
 
 ## License
 
-Not yet determined
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/m-quintero/ec2_rescue/blob/main/LICENSE) file for details.
+
 
 ## Author
 
